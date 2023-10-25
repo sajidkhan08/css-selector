@@ -1,0 +1,63 @@
+/* UNIVERSAL SELECTOR */
+/* *{
+    color: red;
+} */
+
+/* TYPE SELECTOR */
+/* h1,p{
+    color: green;   
+} */
+
+/* CLASS SELECTOR */
+/* .interest{
+    color: blue;
+} */
+
+/* .s1{
+    color: aqua;
+} */
+
+/* .s4{
+    color: #e00e0e;
+} */
+
+/* ID SELECTOR */
+/* #a1{
+    color: brown;
+} */
+
+/* #a2{
+    color: darkblue;
+} */
+
+/* #a3{
+    color: khaki;
+} */
+
+/* CHILD SELECTOR */
+/* div > div > p{
+    color: blue;
+} */
+
+/* div > span > h2{
+    color: rgb(0, 243, 0);
+} */
+
+/* DESCENDENT SELECTOR */
+/* div div p{
+    color: blue;
+} */
+
+/* div div ul li{
+    color: brown;
+} */
+
+/* ADJACENT SIBILING SELECTOR */
+/* h1+p{
+    color: red;
+} */
+
+/* GENERAL SIBLING SELECTOR */
+h1~p{
+    color: red;
+}
